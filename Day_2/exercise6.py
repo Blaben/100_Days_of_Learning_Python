@@ -14,3 +14,9 @@
 # while x<5:
 #     print(x)
 #     x=x+1
+
+# Exercise
+# ================
+# Write a program that will request a user to guess a secret number. The user only has 3 options.
+# print you have won if the user ia able to guess the secret number correctly or You have failed if the user is not
+# able to guess the secret number after the 3rd attempt
