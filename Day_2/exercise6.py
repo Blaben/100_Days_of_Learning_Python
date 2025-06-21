@@ -31,4 +31,5 @@ while guess_count<guess_limit:
    if user_number == 10:
       print("You have a won")
       break
-else:("You have failed all attempts")
+else:
+   ("You have failed all attempts")
