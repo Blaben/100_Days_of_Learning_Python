@@ -17,6 +17,16 @@
 
 # Exercise
 # ================
-# Write a program that will request a user to guess a secret number. The user only has 3 options.
+# Write a program using [while loop] that will request a user to guess a secret number. The user only has 3 options.
 # print you have won if the user ia able to guess the secret number correctly or You have failed if the user is not
 # able to guess the secret number after the 3rd attempt
+
+secret_number = 10
+guess_count =0
+guess_limit = 3
+
+while guess_count<guess_limit:
+   user_number= int(input("Enter a secret number"))
+   if user_number == 10:
+      print("You have a won")
+      break
